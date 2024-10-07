@@ -19,16 +19,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#about">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contatos</a>
+                        <a href="#contact">Contatos</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja Game Shop">
             <div>
@@ -62,10 +62,10 @@
                 <div>
                     <h3>Fale conosco</h3>
                     <form>
-                        <input type="text" placeholder="Seu nome" />
-                        <input type="email" placeholder="Seu email" />
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu email" required/>
                         <input type="tel" placeholder="Seu telefone (opcional)" />
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <textarea placeholder="Sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -92,12 +92,17 @@
                 <div>
                     <h3>Venha até nós</h3>
                     <p>
-                        Rua Margarida nº 977, São Vicente - SP
+                        Rua Margarida nº 977, São Paulo - SP
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="containe">
+            <p>&copy; Game Shop - Todos os direitos reservados - 2024</p>
+        </div>
+    </footer>
 </body>
 
 </html>
